@@ -58,3 +58,19 @@ Example:
 
 - No secrets or API keys are used. All data comes from public RSS feeds.
 - Deadline/amount extraction is intentionally conservative and can be improved later once specific feeds are known.
+
+### Example feed for testing
+
+For a guaranteed RSS 2.0 feed during development, you can use for example:
+
+```json
+{
+  "feeds": [
+    "https://www.nasa.gov/rss/dyn/breaking_news.rss"
+  ],
+  "filters": {
+    "keywords": ["NASA"],
+    "max_deadline_days": 365
+  }
+}
+```
