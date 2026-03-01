@@ -1,0 +1,9 @@
+{
+  "feeds": [
+    "https://www.nasa.gov/rss/dyn/breaking_news.rss"
+  ],
+  "filters": {
+    "keywords": ["NASA"],
+    "max_deadline_days": 365
+  }
+}
